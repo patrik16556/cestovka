@@ -18,6 +18,16 @@
   --font-nadpisy:"Montserrat", sans-serif;
   --font-body:"Open Sans", sans-serif;
 
+
+
+
+  --medzer-s:1rem;
+  --medzer-m:1.5rem;
+  --medzer-l:2rem;
+  --medzer-x:3rem;
+  
+  
+ 
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
@@ -31,11 +41,49 @@ body{
 }
 
 
+ul{
+
+ list-style:none;
+ padding: 0;
+ margin: 0;
+
+}
+
+a{ 
+    text-decoration: none;
+    color:inherit ;
+}
 
 
+h1,h2,h3{
+    font-family: var(--font-nadpisy);
+    margin: 0;
+}
 
+/*============ Havicka ============= */
 
+.hlavicka{
+ background-color:var(--primarna) ;
+ color: var(--pozadie-svetla);
 
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: var(--medzer-s) 
+}
+
+/*============  navigacia ============= */
+
+.navigacia__zoznam{
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: var(--medzer-s) 
+
+}
+
+.navigacia__odkaz:hover{ color: var(--akcent);}
 
 
 
