@@ -100,3 +100,29 @@ nav{margin: var(--medzer-m);}
 
 
 .navigacia__odkaz:hover{ background-color: var(--primarna-tmava);}
+
+
+/*============  hero sekcia ============= */
+
+.hero{
+
+    background: linear-gradient(135deg ,var(--primarna),var(--primarna-tmava)) ;
+    color: var(--pozadie-svetla);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--medzer-m);
+    padding: 3rem;
+}
+
+.hero__odkaz{
+
+ background-color: var(--akcent);
+ padding:1rem ;
+ border-radius: 4px;
+ font-weight: 600;
+
+}
+
+.hero__nadpis{ font-size: 2rem;}
