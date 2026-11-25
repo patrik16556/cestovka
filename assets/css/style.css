@@ -116,13 +116,25 @@ nav{margin: var(--medzer-m);}
     padding: 3rem;
 }
 
-.hero__odkaz{
 
- background-color: var(--akcent);
- padding:1rem ;
- border-radius: 4px;
- font-weight: 600;
+.hero__nadpis{ font-size: 2rem;}
+
+.hero__odstavec{
+    font: size 1.5rem ;
+    margin-bottom:var(--medzer-l) ;
 
 }
 
-.hero__nadpis{ font-size: 2rem;}
+.tlacidlo{
+
+ background-color: var(--akcent);
+ padding:.75rem var(--medzer-m);
+ border-radius: 6px;
+ font-weight: 600;
+ transition: all 0.3s;
+
+}
+
+.tlacidlo:hover{ 
+    background-color:rgb(206, 128, 11) ;
+}
