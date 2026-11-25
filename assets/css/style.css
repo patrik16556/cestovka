@@ -51,7 +51,7 @@ ul{
 
 a{ 
     text-decoration: none;
-    color:inherit ;
+    color: inherit;
 }
 
 
@@ -66,10 +66,13 @@ h1,h2,h3{
  background-color:var(--primarna) ;
  color: var(--pozadie-svetla);
 
+ padding:1.5rem  0 ;
+
  display: flex;
  flex-direction: column;
  align-items: center;
- gap: var(--medzer-s) 
+ gap: var(--medzer-l) 
+ 
 }
 
 /*============  navigacia ============= */
@@ -79,13 +82,21 @@ h1,h2,h3{
  display: flex;
  flex-direction: column;
  align-items: center;
- gap: var(--medzer-s) 
+ gap: var(--medzer-m) 
 
 }
 
-.navigacia__odkaz:hover{ color: var(--akcent);}
+
+
+.navigacia__odkaz{font-weight: 600;
+    
+    padding:.5rem var(--medzer-m);
+    border-radius: 4px;
+    transition:var(--primarna-tmava) 0,3s ;
+}
+
+nav{margin: var(--medzer-m);}
 
 
 
-
-
+.navigacia__odkaz:hover{ background-color: var(--primarna-tmava);}
